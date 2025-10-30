@@ -1,0 +1,142 @@
+That’s why I curated this 60+ problem list, sorted by difficulty + relevancy — tailored for frontend engineers.
+
+✅ Easy (Foundations)
+
+Two Sum
+
+Valid Parentheses
+
+Merge Two Sorted Arrays
+
+Move Zeroes to End
+
+Find Missing Number in Array
+
+Count Unique Values
+
+Reverse a Linked List
+
+Palindrome Checker
+
+Max/Min in Array
+
+Climbing Stairs (DP)
+
+Intersection of Two Arrays
+
+FizzBuzz
+
+Merge Strings Alternately
+
+Maximum Subarray (Kadane’s)
+
+Remove Duplicates from Sorted Array
+
+🧠 Practice sites: LeetCode, NeetCode 150, FrontendExpert
+
+⚙️ Medium (Patterns + Precision)
+
+Longest Substring Without Repeating Characters
+
+Group Anagrams
+
+Sliding Window Maximum
+
+Flatten Nested Arrays
+
+// Flatten nested arrays
+function flatten(arr) {
+ return arr.reduce((acc, val) =>
+ Array.isArray(val) ? acc.concat(flatten(val)) : acc.concat(val), []
+ );
+}
+console.log(flatten([1,[2,[3,[4]]]])); // [1,2,3,4]
+
+
+Rotate Array
+
+Top K Frequent Elements
+
+Merge Intervals
+
+LRU Cache
+
+Deep Clone Object
+
+Search in Rotated Sorted Array
+
+Decode String
+
+Longest Palindromic Substring
+
+Word Break Problem
+
+Subsets (Power Set)
+
+Binary Search on Answer (e.g., Koko Eating Bananas)
+
+🔥 Hard (Systems Thinking)
+
+Median of Two Sorted Arrays
+
+Detect & Remove Cycle in Linked List
+
+Merge K Sorted Lists
+
+Serialize/Deserialize Tree
+
+Trapping Rain Water
+
+Maximum Product Subarray
+
+Implement Priority Queue
+
+Autocomplete System (Trie)
+
+LRU Cache (Class-based)
+
+N-Queens
+
+Word Ladder
+
+Longest Consecutive Sequence
+
+Redundant Connection in Graph
+
+Scheduler with Priorities
+
+Build a Virtual DOM diff logic
+
+🧪 Miscellaneous (JS-specific Real-World Skills)
+
+These look simple but crush candidates if unprepared.
+
+Debounce function
+
+Throttle function
+
+Custom bind / call / apply
+
+Memoization in JS
+
+useState / useReducer from scratch
+
+Deep vs Shallow Copy
+
+Curry function
+
+Flatten deeply nested object
+
+Event Emitter implementation
+
+Implement Promise.all
+
+Compose / Pipe utility functions
+
+Infinite scroll logic
+
+Retry mechanism with delay
+
+JSON diff tool
+
+setTimeout in Event Loop
